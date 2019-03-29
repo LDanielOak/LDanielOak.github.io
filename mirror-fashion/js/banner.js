@@ -1,7 +1,7 @@
-var banners = ["img/destaque-home.png", "img/destaque-home2.png"]
+var banners = ["img/destaque-home.png", "img/destaque-home-2.png"]
 var bannerAtual = 0;
 
-function trocarBanner() {
+function trocaBanner() {
     bannerAtual = (bannerAtual + 1) % 2;
     document.querySelector('.banner-destaque img').src = banners[bannerAtual];
 }
