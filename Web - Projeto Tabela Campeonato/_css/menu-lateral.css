@@ -1,0 +1,78 @@
+/*CONFIGURAÇÃO GERAL*/
+header {
+    position: relative;
+    background-color: rgba(25, 64, 29, 0.8);
+    width: 100%;
+    height: auto;
+    padding: 10px 0 15px;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+body {
+    background-image: url(../_imagens/Grass-Texture.jpg);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+    margin: 10px auto;
+    width: 940px;
+}
+
+/*CONFIGURAÇÃO DO MENU*/
+.menu-lateral {
+    width: 15%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: rgba(25, 64, 29, 0.8);
+    float: left;
+
+    padding-bottom: 21%;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+
+.mascotes {
+    position: relative;
+    /*top: 200px;*/
+}
+
+.mascotes img {
+    width: 200px;
+    height: 250px;
+}
+
+/*CONFIGURAÇÃO DO FOOTER*/
+footer {
+    background-color: rgba(25, 64, 29, 0.8);
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.rodape {
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+
+    color: white;
+}

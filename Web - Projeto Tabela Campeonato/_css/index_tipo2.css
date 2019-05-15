@@ -1,0 +1,145 @@
+/*CONFIGURAÇÃO GERAL*/
+body {
+    background-image: url(../_imagens/Grass-Texture.jpg);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-size: 100%;
+}
+
+.container {
+    margin: 10px auto;
+    width: 940px;
+}
+
+/*CONFIGURAÇÃO DO HEADER - CABEÇALHO*/
+header {
+    position: relative;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*CONFIGURAÇÃO DO MENU*/
+.menu-lateral {
+    width: 15%;
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(25, 64, 29, 0.8);
+}
+
+.menu {
+    position: relative;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.mascotes {
+    position: relative;
+    clear: left;
+    top: 200px;
+}
+
+.mascotes img {
+    width: 150px;
+    height: 200px;
+}
+
+
+/*CONFIGURAÇÃO DOS TIMES*/
+.titulo {
+    position: relative;
+    background-color: rgba(25, 64, 29, 0.8);
+}
+
+.tabelas img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.tabelas-times {
+    top: 0;
+    right: 200px;
+    width: 430px;
+    padding: 10px;
+}
+
+.titulo h2 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tabela {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+
+    padding: 3px;
+}
+
+.tabela ol li {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.primeira {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/*CONFIGURAÇÃO DAS RODADAS*/
+.rodadas {
+    width: 300px;
+    padding: 5px;
+}
+
+.rodadas ol li {
+    padding: 5px;
+}
+
+.titulo h3 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.tabelas-rodadas {
+    position: relative;
+    top: 0;
+    right: 200px;
+    width: 430px;
+    padding: 10px;
+}
+
+.tabelas-times input[type=checkbox] {
+    display: none;
+}
+
+.tabelas-times li:hover {
+    border: 2px solid rgba(0,0,0,1);
+}
+
+.tabelas-times input:checked + li:after {
+    border: 2px solid rgba(0,0,0,0.3);
+}
