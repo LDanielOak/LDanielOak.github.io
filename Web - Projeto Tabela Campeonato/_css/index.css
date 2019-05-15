@@ -1,0 +1,101 @@
+/*CONFIGURAÇÃO DOS TIMES*/
+.tabelas-times {
+    position: relative;
+    background-color: rgba(25, 64, 29, 0.8);
+
+    width: 62%;
+    height: auto;
+
+    left: 110px;
+    margin: auto;
+    padding: 10px;
+}
+
+.tabelas-times h2 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.tabelas-times img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.tabela {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+
+    padding: 3px;
+}
+
+.tabela ol {
+    display: inline-block;
+    padding: 3px;
+}
+
+.tabela ol li {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.primeira {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+/*CONFIGURAÇÃO DE BOTÕES*/
+.botoes {
+    display: inline-block;
+    padding: 2%;   
+
+    position: relative;
+    bottom: 100px;
+}
+
+.simulacao {
+    background: #91bd3c;
+    border: none;
+    color: #333;
+
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+
+    box-shadow: 0 1px 3px #777;
+
+    display: block;
+    padding: 0.5em 1em;
+    margin: auto;
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    cursor: pointer;
+}
+
+.resultado {
+    background: #91bd3c;
+    border: none;
+    color: #333;
+
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+
+    box-shadow: 0 1px 3px #777;
+
+    display: block;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+
+    cursor: pointer;
+}
